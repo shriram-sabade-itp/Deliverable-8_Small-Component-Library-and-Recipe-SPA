@@ -1,18 +1,39 @@
-# React + Vite
+# 📘 Recipe App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Recipe Application** built using **React, Vite, and React Router**.  
+This project is designed as a beginner‑friendly Single Page Application (SPA) that demonstrates:
 
-Currently, two official plugins are available:
+- React components  
+- Props & State  
+- Routing with React Router  
+- A small reusable component library (Button, Card, Navbar)  
+- Clean and scalable project structure  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React (Functional Components)**
+- **Vite (Fast bundler & dev server)**
+- **React Router DOM**
+- **JavaScript (ES6+)**
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## ▶️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repo
+```bash
+git clone <repo-url>
+cd recipe-app
+```
+
+### 2.Install dependencies
+```bash
+npm install
+```
+
+### 3.Start Development Server
+```bash
+npm run dev
+```
