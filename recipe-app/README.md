@@ -6,7 +6,7 @@ This project is designed as a beginner‑friendly Single Page Application (SPA) 
 - React components  
 - Props & State  
 - Routing with React Router  
-- A small reusable component library (Button, Card, Navbar)  
+- A small reusable component library 
 - Clean and scalable project structure  
 
 ---
