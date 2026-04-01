@@ -1,8 +1,39 @@
 import React from 'react'
+import { Utensils } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
-const CategorySelection = () => {
+const CategorySelection = ({ filterByCategory }) => {
+  const featuredAreas = [
+    "Chicken",
+    "Chocolate",
+    "Dessert",
+    "Seafood",
+    "Vegetarian",
+    "Breakfast",
+    "Pasta",
+    "Lamb",
+  ];
+  
   return (
-    <div>CategorySelection</div>
+    <>
+      <section className='mt-2 mx-auto'>
+        <h2 className='text-3xl font-extrabold text-gray-100 mb-6 tracking-tight border-1-4 border-yellow-400 pl-4 flex items-center'>
+          <Utensils className='w-6 h-6 mr-3 text-blue-500' />
+          Quick Filter by Primary Ingredient
+        </h2>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6'>
+          {featuredAreas.map((cat, index) => 
+            <Link
+              to={`search/${cat}`}
+              key={index}
+              onClick ={() => filterByCategory(cat)}
+              className='bg-gray-800 p-5 sm:p-5 rounded-xl shadow-black transition duration-3 text-center font-semibold text-gray-100 border border-gray-700 hover:border-blue hover:text-blue-400 transform hover:scale-[1.05] hover:shadow-gray-700/50 mx-5 mt-3'>
+              {cat}
+            </Link>
+          )}
+        </div>
+      </section>
+    </>
   )
 }
 
