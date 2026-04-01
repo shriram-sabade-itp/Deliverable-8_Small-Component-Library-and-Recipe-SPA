@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const CategorySelection = ({ filterByCategory }) => {
   const featuredAreas = [
     "Chicken",
-    "Chocolate",
     "Dessert",
     "Seafood",
     "Vegetarian",
