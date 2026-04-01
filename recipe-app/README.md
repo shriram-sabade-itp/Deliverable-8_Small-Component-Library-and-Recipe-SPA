@@ -37,3 +37,5 @@ npm install
 ```bash
 npm run dev
 ```
+
+Deployed Link: https://recipespa.vercel.app/
